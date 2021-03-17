@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+path,
+i,
+svg {
+  pointer-events: none;
+}
+
+.colors {
+  height: 40rem;
+  width: 100%;
+  display: flex;
+
+  background-color: aqua;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hex-value {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.palet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+button {
+  padding: 5px;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu {
+  padding-top: 20px;
+  display: flex;
+}
+
+.save,
+.generate,
+.library {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuText {
+  font-size: 20px;
+  font-weight: bold;
+}
